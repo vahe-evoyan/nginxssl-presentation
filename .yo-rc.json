@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Secure SSL setup on Nginx or how to get an A+ on SSLLabs.",
+    "packageVersion": "0.0.0",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "vahe_evoyan",
+    "githubRepository": "nginxssl"
+  }
+}
