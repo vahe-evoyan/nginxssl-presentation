@@ -81,14 +81,15 @@ module.exports = (grunt) ->
         
         buildcontrol:
 
-             options:
+            options:
                 dir: 'dist'
                 commit: true
                 push: true
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:vahe_evoyan/nginxssl.git'
+                    remote: 'git@github.com:vahe-evoyan' +
+                            '/nginxssl-presentation.git'
                     branch: 'gh-pages'
         
 
@@ -126,9 +127,7 @@ module.exports = (grunt) ->
         ]
 
     grunt.registerTask 'server',
-        'grunt server task is deprecated, please run serve instead', [
-            'server'
-        ] 
+        'grunt server task is deprecated, please run serve instead', ['server']
 
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [

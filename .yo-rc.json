@@ -4,7 +4,7 @@
     "packageVersion": "0.0.0",
     "useSass": false,
     "deployToGithubPages": true,
-    "githubUsername": "vahe_evoyan",
-    "githubRepository": "nginxssl"
+    "githubUsername": "vahe-evoyan",
+    "githubRepository": "nginxssl-presentation"
   }
 }
